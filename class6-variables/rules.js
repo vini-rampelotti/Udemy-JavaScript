@@ -1,28 +1,28 @@
-//You cannot create variables with reserved words:
+// You cannot create variables with reserved words:
 
 let console;
 
-//Variables need to have signifcatives names:
+// Variables need to have signifcatives names:
 
 let clientName = 'João';
 console.log(clientName);
 
-//Can't start a variable name with a number:
+// Can't start a variable name with a number:
 
 let no1me;
-let 1nome;
+// let 1nome;
 
 //Can't have any space or special chars:
 
-let client Name;
-let client-name;
+// let client Name;
+// let client-name;
 
 //Use camelCase:
 
 let completeClientName = 'João da Silva';
 console.log(completeClientName);
 
-//Vars are case sensitive:
+// Vars are case sensitive:
 // nomecliente != nomeCliente
 
 let nomeCliente = 'Luiz';
