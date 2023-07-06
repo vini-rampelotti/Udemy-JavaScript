@@ -1,12 +1,16 @@
-// You cannot create variables with reserved words:
+// You cannot create variables with reserved words
 
-// Variables need to have signifcatives names:
+// Variables need to have signifcatives names
 
-// Can't start a variable name with a number:
+// Can't start a constant's name with a number
 
-//Can't have any space or special chars:
+// Can't have any space or special characters
 
-//Use camelCase:
+// Use camelCase
 
-// Vars are case sensitive:
+// Constants are case-sensitive
 // nomecliente != nomeCliente
+
+// You CAN'T change the value of a constant
+
+// USE CONST!!!
