@@ -1,4 +1,4 @@
-// You cannot create variables with reserved words:
+// You can't create variables with reserved words:
 
 let console;
 
@@ -7,25 +7,29 @@ let console;
 let clientName = 'João';
 console.log(clientName);
 
-// Can't start a variable name with a number:
+// Can't start a variable's name with a number:
 
 let no1me;
-// let 1nome;
+let 1nome;
 
-//Can't have any space or special chars:
+// Can't have any space or special chars:
 
-// let client Name;
-// let client-name;
+let client Name;
+let client-name;
 
-//Use camelCase:
+// Use camelCase:
 
 let completeClientName = 'João da Silva';
 console.log(completeClientName);
 
 // Vars are case sensitive:
-// nomecliente != nomeCliente
+// Example: nomecliente != nomeCliente
 
 let nomeCliente = 'Luiz';
 let nomecliente = 'Otávio';
 
 console.log (nomeCliente,nomecliente);
+
+// We can't redeclare a variable
+
+// DON'T USE VAR, USE LET!!!
